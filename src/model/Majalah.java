@@ -18,7 +18,7 @@ public class Majalah extends Koleksi implements Terarsip {
 
     @Override
     public boolean layakDipinjam() {
-        return !edisiTerbaru; // layak kalau BUKAN edisi terbaru
+        return !edisiTerbaru;
     }
 
     @Override

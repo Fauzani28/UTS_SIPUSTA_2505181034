@@ -1,8 +1,6 @@
 package layanan;
-
 import model.Koleksi;
 import ekespsi.*;
-
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
@@ -23,7 +21,7 @@ public class KatalogPerpustakaan {
         System.out.println();
     }
 
-    // Soal 4: urut dengan Comparator dari luar
+    // Soal 4: urutkan dengan Comparator dari luar
     public void urut(Comparator<Koleksi> comparator) {
         daftar.sort(comparator);
     }

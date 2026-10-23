@@ -15,7 +15,7 @@ public class Main {
         eksporKatalog(katalog);
     }
 
-    // ---------- Data Uji ----------
+    // Data Pengujian
     private static void isiDataUji(KatalogPerpustakaan katalog) {
         katalog.tambah(new BukuCetak(
                 "BK-001", "Cara Memahami HTML, CSS, dan JavaScript",
@@ -37,20 +37,20 @@ public class Main {
                 2025, 8.0, "unduh.polmed.ac.id/bd002"));
     }
 
-    // ---------- Status Awal ----------
+    // Status Pertama
     private static void cetakStatusAwal(KatalogPerpustakaan katalog) {
         System.out.println("=== STATUS AWAL ===");
         katalog.cetakStatus();
     }
 
-    // ---------- Urut Katalog ----------
+    // Mengurutkan Katalog
     private static void urutkanKatalog(KatalogPerpustakaan katalog) {
         System.out.println("\n=== SETELAH DIURUT (Layak dulu, lalu Judul) ===");
         katalog.urut(new UrutLayakLaluJudul());
         katalog.cetakStatus();
     }
 
-    // ---------- Uji Pinjam ----------
+    // Pengujian Peminjaman
     private static void ujiPinjam(KatalogPerpustakaan katalog) {
         System.out.println("\n=== UJI PINJAM ===");
 
@@ -70,7 +70,7 @@ public class Main {
         }
     }
 
-    // ---------- Ekspor ----------
+    // Ekspor Katalog
     private static void eksporKatalog(KatalogPerpustakaan katalog) {
         System.out.println("\n=== EKSPOR KATALOG ===");
         EksporKatalog.ekspor(katalog.getDaftar(), "katalog.txt");
