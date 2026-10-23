@@ -1,6 +1,6 @@
 import model.*;
 import layanan.*;
-import ekespsi.*;
+import eksepsi.*;
 import utilitas.EksporKatalog;
 
 public class Main {
@@ -19,10 +19,10 @@ public class Main {
     private static void isiDataUji(KatalogPerpustakaan katalog) {
         katalog.tambah(new BukuCetak(
                 "BK-001", "Cara Memahami HTML, CSS, dan JavaScript",
-                2022, 620, "A-12", false));
+                2022, 620, "Bk-001", false));
         katalog.tambah(new BukuCetak(
                 "BK-002", "Desain Komponen Struktur Beton Bertulang",
-                2021, 410, "B-04", true));
+                2021, 410, "Bk-002", true));
         katalog.tambah(new Majalah(
                 "MJ-001", "Info Teknologi Edisi 88",
                 2026, 88, "Agustus", true, "C-01"));
