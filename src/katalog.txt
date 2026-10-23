@@ -1,0 +1,8 @@
+KODE     | JUDUL                               | TAHUN  | JENIS        | STATUS    
+------------------------------------------------------------------------------------------
+BK-001   | Cara Memahami HTML, CSS, dan JavaScript | 2022   | BukuCetak    | Layak     
+MJ-002   | Info Teknologi Edisi 87             | 2026   | Majalah      | Layak     
+BD-002   | Jurnal Perancangan Perangkat Lunak  | 2025   | BerkasDigital | Layak     
+BD-001   | Panduan Pemrograman Java            | 2024   | BerkasDigital | Layak     
+BK-002   | Desain Komponen Struktur Beton Bertulang | 2021   | BukuCetak    | Tidak     
+MJ-001   | Info Teknologi Edisi 88             | 2026   | Majalah      | Tidak     
